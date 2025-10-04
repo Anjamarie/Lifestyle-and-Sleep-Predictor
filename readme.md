@@ -18,17 +18,18 @@ Key Findings and Visualization
 
 The project successfully validated that the simpler Linear Regressor achieved near-optimal performance (R^2=0.95) compared to the complex Random Forest (R^2=0.98), providing a crucial insight for optimizing production compute costs in a low-latency environment.
 
-Sleep Quality Features
+# Sleep Quality Features
 
 ![Sleep Quality Features](assets/sleep_features.png)
 
-Sleep Quality Based On Occupation
+# Sleep Quality Based On Occupation
 
 ![Sleep and Occupation](assets/sleep_occupations.png)
 
-Relationship Between Sleep Quality and Duration of Sleep
+# Relationship Between Sleep Quality and Duration of Sleep
 
 ![Relationship Sleep Quality and Duration](assets/sleep_relationship.png)
+
 
 
 
