@@ -12,12 +12,13 @@ The analysis was performed using a machine learning pipeline to ensure a streaml
 * 		Predictive Application & Visualization: The project demonstrates the practical application of the model by saving it using joblib and using it to make a prediction on a new, unseen data point. Additionally, key relationships within the data were visualized through plots to gain a deeper understanding of the factors influencing sleep quality.
 
 Key Findings
-# Feature Importance  ![Bar chart showing the importance of different lifestyle features in predicting sleep quality](assets/Sleep_Features.png)
+# Feature Importance  ![Bar chart showing the importance of different lifestyle features in predicting sleep quality](assets/sleep_relationship.png)
 The comparison between the baseline Linear Regression model and the optimized Random Forest Regressor revealed significant insights into the predictive power of the features. The optimized model achieved superior performance, confirming the effectiveness of hyperparameter tuning. The project also included a feature importance analysis to highlight which specific metrics were most influential in predicting sleep quality.
 The final result is a production-ready model that is both highly accurate and interpretable, providing a strong foundation for future research or application.
-# Sleep Quality by Occupation ![Boxplot showing the different sleep qualities based on occupation](assets/Sleep_occupation_duration.png)
+# Sleep Quality by Occupation ![Boxplot showing the different sleep qualities based on occupation](assets/sleep_occupations.png)
 
-# Comparison of the Relationship Between Sleep Duration and Quality ![Scatterplot showing the relationship between sleep duration and quality of sleep](assets/Relationship_duration_quality.png)
+# Comparison of the Relationship Between Sleep Duration and Quality ![Scatterplot showing the relationship between sleep duration and quality of sleep](assets/sleep_features.png)
+
 
 
 
