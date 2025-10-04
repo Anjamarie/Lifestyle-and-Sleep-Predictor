@@ -16,17 +16,3 @@ The comparison between the baseline Linear Regression model and the optimized Ra
 The final result is a production-ready model that is both highly accurate and interpretable, providing a strong foundation for future research or application.
 
 
-# Feature Importance
-![Bar chart showing feature importance](assets/sleep_features.png)
-
-# Sleep Quality by Occupation
-![Boxplot showing quality of sleep by different occupations](assets/sleep_occupations.png)
-
-# Comparison of the Relationship Between Sleep Duration and Quality
-![Scatterplot showing the relationship between sleep duration and quality of sleep](assets/sleep_relationships.png)
-
-
-
-
-
-
