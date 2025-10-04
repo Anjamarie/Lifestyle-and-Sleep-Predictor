@@ -22,5 +22,6 @@ Model Artifact	Joblib Serialization	The best-performing model was saved to disk 
 ![Boxplot showing quality of sleep by different occupations](assets/sleep_occupations.png)
 
 ## Comparison of the Relationship Between Sleep Duration and Quality
-![Scatterplot showing the relationship between sleep duration and quality of sleep](assets/sleep_relationships.png)
+![Scatterplot showing the relationship between sleep duration and quality of sleep](assets/sleep_relationship.png)
+
 
