@@ -9,10 +9,33 @@ This project explores the relationship between various lifestyle and health metr
 
 ### Component	Technology / Concept	Significance
 
-Data Preprocessing	Scikit-learn Pipeline, StandardScaler, OneHotEncoder	Established a robust, clean pipeline to handle both numerical and categorical features, ensuring data normalization and preventing data leakage across training and test sets.
-Baseline Model	Linear Regression	Established an interpretable baseline (R^2=0.95) to quantify the minimal compute necessary for highly accurate prediction.
-Optimization	Random Forest Regressor + GridSearchCV	Systematically tuned hyperparameters to minimize error, achieving superior test performance (R^2=0.98), demonstrating expertise in model refinement and optimization.
-Model Artifact	Joblib Serialization	The best-performing model was saved to disk as a final artifact, showcasing model preparation for deployment.
+1. Data Preprocessing & Pipeline Engineering
+
+Feature Engineering Pipeline: Engineered a robust Scikit-learn pipeline utilizing StandardScaler for numerical features and OneHotEncoder for categorical features.
+
+Data Integrity: Implemented the pipeline within a Scikit-learn ColumnTransformer to ensure consistent data normalization and feature encoding, effectively preventing data leakage between training and test sets.
+
+2. Baseline Model Establishment
+
+Interpretable Baseline: Established a simple Linear Regression model as a baseline to benchmark performance.
+
+Initial Performance: Achieved a strong initial performance with an R 
+2
+  score of 0.95, quantifying the minimal computational effort required for high-accuracy predictions.
+
+3. Model Optimization & Refinement
+
+Advanced Model Selection: Systematically optimized performance using a Random Forest Regressor to capture complex, non-linear relationships.
+
+Hyperparameter Tuning: Employed GridSearchCV for exhaustive hyperparameter tuning, minimizing prediction error and achieving superior generalization.
+
+Final Performance: Attained an optimized test performance with an R 
+2
+  score of 0.98, demonstrating expertise in model refinement and optimization.
+
+4. Model Deployment Preparation
+
+Model Serialization: Serialized the final, best-performing model to disk using the joblib library, creating a portable model artifact ready for production deployment.
 
 
 ## Feature Importance
@@ -23,6 +46,7 @@ Model Artifact	Joblib Serialization	The best-performing model was saved to disk 
 
 ## Comparison of the Relationship Between Sleep Duration and Quality
 <img src="assets/sleep_relationship.png">
+
 
 
 
